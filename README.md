@@ -44,6 +44,12 @@ To use this as a quick slash command (`/`), you need to add it to your Claude te
 
 ## 💻 How to Use
 
+### Prerequisites
+
+1. You have a Windows local machine and a remote Linux server.
+2. You have configured SSH Key-Based Authentication (passwordless login) and an SSH alias in your Windows `~/.ssh/config`.
+3. You are using Claude (Desktop App is recommended as it supports local terminal execution tools).
+
 ### Step 1: Trigger the Wizard
 
 In your Claude terminal, simply type:
@@ -122,6 +128,12 @@ ssh server-gpu "source ~/.bashrc && conda activate base && cd /home/user/data/My
    - 将 `set_ssh.md` 复制到commands目录下
 
 ## 💻 使用指南
+
+### 前置要求
+
+1. 本地使用 Windows 11/10，远程机器为 Linux 系统。
+2. 已在 Windows 本地的 `~/.ssh/config` 中配置了 SSH 免密登录和服务器别名。
+3. 正在使用 Claude（推荐使用 Claude Desktop 客户端，以支持自动操作本地终端执行工具）。
 
 ### 第一步：唤醒向导
 
