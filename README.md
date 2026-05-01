@@ -1,11 +1,3 @@
-太棒了，将它封装成 `/` 快捷命令（Slash Command）确实是最高效的使用方式！这样你就可以在不同的项目中随时通过打字唤醒这个配置向导了。
-
-我已经为你更新了 README 文件，将术语从“Skill”更正为“Command”，并详细增加了**如何配置并使用 `/set_ssh` 快捷命令**的教程。
-
-你可以直接使用以下内容更新你的 `README.md`：
-
-***
-
 # 🇺🇸 English Version
 
 # Claude SSH-Mode Command: Local to Remote Command Mapping Wizard
